@@ -4,7 +4,7 @@ import numpy as np
 import os
 
 # Проверка наличия файла
-data_file_path = '/home/and/python_poned/lab1_S/data.csv'
+data_file_path = '/home/and/python_poned/mylab1/data.csv'
 if not os.path.isfile(data_file_path):
     print("Файл 'data.csv' не найден.")
     exit()
